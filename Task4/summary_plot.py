@@ -20,7 +20,7 @@ if __name__ == '__main__':
     plt.grid(True, linestyle='--', alpha=0.3)
     # 调整布局
     plt.tight_layout()
-    plt.savefig('tp_total_vs_volts.png', dpi=300)
+    plt.savefig('tp_total_vs_volts.pdf')
     plt.close()
 
     # 图2: power - volts
@@ -32,7 +32,7 @@ if __name__ == '__main__':
     plt.grid(True, linestyle='--', alpha=0.3)
     # 调整布局
     plt.tight_layout()
-    plt.savefig('power_vs_volts.png', dpi=300)
+    plt.savefig('power_vs_volts.pdf')
     plt.close()
 
     # 图3: edp - volts
@@ -44,5 +44,5 @@ if __name__ == '__main__':
     plt.grid(True, linestyle='--', alpha=0.3)
     # 调整布局
     plt.tight_layout()
-    plt.savefig('edp_vs_volts.png', dpi=300)
+    plt.savefig('edp_vs_volts.pdf')
     plt.close()
